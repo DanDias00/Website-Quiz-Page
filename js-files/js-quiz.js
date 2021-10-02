@@ -1,5 +1,4 @@
 var currentquestion=0;
-
 var correctcount=0;
 var wrongcount=0;
 var wrongscore=0;
@@ -41,9 +40,8 @@ var cseconds=parseInt(totalseconds%60);
       timeused=60-totalseconds;
      setTimeout("checktime()",1000);
     }
-    }
+  }
     
-
 
 function startquiz(){
 
@@ -64,7 +62,6 @@ navbar.classList.add('hide')//hiding the navigation bar
 }
 
   
-
 function loadquestion(questionindex){
     
     var q=questions[questionindex];
@@ -156,8 +153,6 @@ function submitthis(){
     }
 
     
-  
-    
     function correctquestions(correctarray){//funtion to print out the correct questions array
         var temp="";
 
@@ -179,7 +174,6 @@ function submitthis(){
          correctscore=correctcount*2;
          finalfinalscore=correctscore+wrongscore;
          
-        //finalfinalscore=correctscore+(wrongscore);
         if(correctcount<=3){
             return noscore ;
         }else{
