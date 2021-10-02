@@ -14,9 +14,6 @@ body
     border: 2px solid rgb(2, 25, 70);
     box-shadow: 0 0 8px 3px #fff;
     
-
-
-
 }
 
 
@@ -32,10 +29,8 @@ body
     border: 2px solid rgb(80, 202, 80);
     box-shadow: 0 0 8px 3px #fff;
    
-
-
-
 }
+
 .title{
     padding-top: 20px;
     text-align: center;
@@ -44,6 +39,7 @@ body
     color:rgb(212, 203, 203);
 
 }
+
 .question{
     padding:20px;
     font-size: 22px;
@@ -54,8 +50,8 @@ body
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-
 }
+
 .option{
     width:460px;
     display: inline-block;
@@ -68,16 +64,16 @@ body
     font-size: 20px;
     font-family: 'Franklin Gothic Medium';
 
-
 }
+
 .option:hover{
     background:rgb(33, 3, 73);
     color:lightcyan;
     box-shadow: 0 0 8px 3px #fff;
    
-
-
 }
+
+
 .next-btn{
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.5);
@@ -115,10 +111,6 @@ body
     width:250px;
     height:50px;
     
-
-
-
-
 }
 
 .start-btn:hover{
@@ -139,54 +131,46 @@ body
     margin-right: 100px;
     margin-bottom: 0px;
     
-
 }
+
+
 .correctcount{
     border-radius: 10px;
-  
-      
-        text-align: center;
-        font-size: 30px;
-        background:rgb(255, 255, 255);
-        width:1000px;
-        margin-left: 250px;
-        margin-right: 100px;
-        margin-top:50px;
-        border:2px solid orange ;
+    text-align: center;
+    font-size: 30px;
+    background:rgb(255, 255, 255);
+    width:1000px;
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-top:50px;
+    border:2px solid orange ;
          
     
 }
 .timeused{
     border-radius: 10px;
-  
-      
-        text-align: center;
-        font-size: 30px;
-        background:rgb(255, 255, 255);
-        width:1000px;
-        margin-left: 250px;
-        margin-right: 100px;
-        margin-top:50px;
-        border:2px solid orange ;
-         
-    
-
+    text-align: center;
+    font-size: 30px;
+    background:rgb(255, 255, 255);
+    width:1000px;
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-top:50px;
+    border:2px solid orange ;
 }
+
+
 .correctanswerdiv{
     border-radius: 10px;
-  
-        height:600px;
-        text-align: center;
-        font-size: 30px;
-        background:rgb(255, 255, 255);
-        width:1000px;
-        margin-left: 250px;
-        margin-right: 100px;
-        margin-top:50px;
-        border:2px solid orange ;
-         
-    
-
+    height:600px;
+    text-align: center;
+    font-size: 30px;
+    background:rgb(255, 255, 255);
+    width:1000px;
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-top:50px;
+    border:2px solid orange ;
 }
 
 
@@ -204,8 +188,7 @@ body
 .hide{
     display: none;
 }
-
-    
+   
 .rules{
     font-size:20px;
     background: #cc7a00;
@@ -251,8 +234,6 @@ ol{
     margin-left: 5px;
 
 }
-
-
 
 
 .footerBar{
